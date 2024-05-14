@@ -1,0 +1,52 @@
+06-10-23_15:34:36
+=========================================
+============ AUTOGRADING ================
+=========================================
+Examining contents of 8374_3173.zip
+One jupyter notebook found
+-----------------------------------------
+Unzipping 8374_3173.zip to /home/autograder/unzipped
+Archive:  /home/autograder/temp/8374_3173.zip
+  inflating: /home/autograder/unzipped/8374_3173/basic_python_function_test_suite.py  
+  inflating: /home/autograder/unzipped/8374_3173/submission_basic_python_function_student_version.ipynb  
+caution: excluded filename not matched:  __MACOSX/*
+Unzipped successfully
+-----------------------------------------
+Processing notebook
+Notebook processed successfully
+-----------------------------------------
+Checking submission for syntax errors
+Check complete
+-----------------------------------------
+Grading student code
+Student code graded successfully
+PASSED     combine
+PASSED     combine
+PASSED     combine
+FAILED     separate
+           Inputs: ['I can code in Python! ']
+           Right contains one more item: ''
+           Full diff:
+           expected output:  ['I', 'can', 'code', 'in', 'Python!', '']
+                                                                 ----
+           your output:      ['I', 'can', 'code', 'in', 'Python!']
+PASSED     separate
+FAILED     edit
+           Inputs: ['I can code in Python! ']
+           xpected_output = ['I', 'CAN', 'CODE', 'IN', 'PYTHON!', '']
+           ['I', 'CAN', 'CODE', 'IN', 'PYTHON!','']),
+           ['I', 'CANNOT', 'CODE', 'IN', 'PYTHON!']),
+           Right contains one more item: ''
+           Full diff:
+           expected output:  ['I', 'CAN', 'CODE', 'IN', 'PYTHON!', '']
+                                                                 ----
+           your output:      ['I', 'CAN', 'CODE', 'IN', 'PYTHON!']
+PASSED     edit
+-----------------------------------------
+Saving result (71.43) to 8374_3173.csv
+=========================================
+AUTOGRADING COMPLETED WITH EXIT STATUS: 0
+=========================================
+
+Submission Name : 8374_3173.zip
+Grade : 71.43
